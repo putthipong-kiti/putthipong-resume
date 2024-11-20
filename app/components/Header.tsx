@@ -26,7 +26,7 @@ export default function Header() {
           <span className="flex items-center space-x-2">
             <span>
               <Image
-                src={theme === "dark" ? "/logo-dark.png" : "/logo-light.png"}
+                src={theme === "light" ? "/logo-light.png" : "/logo-dark.png"}
                 width="50"
                 alt="N"
                 height="50"
