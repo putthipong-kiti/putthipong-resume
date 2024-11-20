@@ -5,6 +5,8 @@ import {
   CodeBracketSquareIcon,
   CommandLineIcon,
   BuildingStorefrontIcon,
+  ArrowUpRightIcon,
+  ArrowRightIcon,
 } from "@heroicons/react/24/solid";
 
 const myInterestArea = {
@@ -41,7 +43,8 @@ export default function Home() {
               Hi, I&apos;m Frank
             </h1>
             <div className="py-5 text-base text-center leading-normal items-center justify-center text-gray-500 lg:text-lg xl:text-xl dark:text-gray-300">
-              I&apos;m passionate about software development, problem-solving, <br />
+              I&apos;m passionate about software development, problem-solving,{" "}
+              <br />
               and creating tech solutions that make a difference. <br />
               {/* Learn more{" "}
               <a
@@ -121,9 +124,20 @@ export default function Home() {
                     href="https://xzam-26219.web.app/"
                     target="_blank"
                     rel="noopener"
-                    className="px-8 py-3 text-lg font-medium text-center text-white bg-indigo-600 rounded-xl transition duration-300 hover:bg-indigo-700"
+                    className="flex items-center px-8 py-3 gap-4 text-lg text-center text-white bg-indigo-600 rounded-xl transition duration-300 hover:bg-indigo-700"
                   >
                     See the Live Site
+                    <ArrowUpRightIcon className="hidden lg:flex lg:w-5 lg:h-5" />
+                  </a>
+
+                  <a
+                    href="https://www.dailynews.co.th/news/2974727/"
+                    target="_blank"
+                    rel="noopener"
+                    className="flex items-center px-8 py-3 gap-4 text-lg text-center text-gray-500 dark:text-gray-300 bg-gray-100 dark:bg-trueGray-800 rounded-xl transition duration-300 hover:bg-gray-200 dark:hover:bg-trueGray-900"
+                  >
+                    Read More
+                    <ArrowRightIcon className="hidden lg:flex lg:w-5 lg:h-5" />
                   </a>
                 </div>
               </div>
@@ -154,16 +168,18 @@ export default function Home() {
                   WEB APPLICATION DEVELOPMENT PROJECT
                 </div>
                 <p className="py-4 text-sm text-left leading-normal text-gray-500 lg:text-base xl:text-lg dark:text-gray-300">
-                  storage management system for university clubs to improve inventory tracking.
+                  Storage management system for university clubs to improve
+                  inventory tracking.
                 </p>
                 <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
                   <a
                     href="https://s-track.vercel.app/"
                     target="_blank"
                     rel="noopener"
-                    className="px-8 py-3 text-lg font-medium text-center text-white bg-indigo-600 rounded-xl transition duration-300 hover:bg-indigo-700"
+                    className="flex items-center px-8 py-3 gap-4 text-lg text-center text-white bg-indigo-600 rounded-xl transition duration-300 hover:bg-indigo-700"
                   >
                     See the Live Site
+                    <ArrowUpRightIcon className="hidden lg:flex lg:w-5 lg:h-5" />
                   </a>
                 </div>
               </div>

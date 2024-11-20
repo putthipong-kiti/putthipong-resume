@@ -12,14 +12,12 @@ const ThemeChanger = () => {
 
   return (
     <div className="relative z-10 flex h-14 w-24 items-center rounded-full bg-gray-300 dark:bg-trueGray-800">
-      {/* Slider */}
       <div
         className={`absolute h-12 w-11 rounded-full bg-white dark:bg-trueGray-600 shadow-md transform transition-transform duration-300 ${
           theme === "dark" ? "translate-x-12" : "translate-x-1"
         }`}
       ></div>
 
-      {/* Light Side */}
       <button
         onClick={() => setTheme("light")}
         className="flex-1 h-full z-20 rounded-full text-lg text-gray-700 dark:text-gray-400 transition-colors duration-300 flex justify-center items-center"
@@ -40,7 +38,6 @@ const ThemeChanger = () => {
         </svg>
       </button>
 
-      {/* Dark Side */}
       <button
         onClick={() => setTheme("dark")}
         className="flex-1 h-full z-20 rounded-full text-lg text-gray-700 dark:text-gray-400 transition-colors duration-300 flex justify-center items-center"
