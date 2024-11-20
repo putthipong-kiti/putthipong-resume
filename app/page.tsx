@@ -38,10 +38,10 @@ export default function Home() {
         <div className="flex items-center justify-center w-full mx-auto xl:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-5xl font-bold leading-snug tracking-tight flex items-center justify-center lg:leading-tight md:text-6xl xl:leading-tight text-gradient-to-r text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text">
-              Hi, I'm Frank
+              Hi, I&apos;m Frank
             </h1>
             <div className="py-5 text-base text-center leading-normal items-center justify-center text-gray-500 lg:text-lg xl:text-xl dark:text-gray-300">
-              I'm passionate about software development, problem-solving, <br />
+              I&apos;m passionate about software development, problem-solving, <br />
               and creating tech solutions that make a difference. <br />
               {/* Learn more{" "}
               <a

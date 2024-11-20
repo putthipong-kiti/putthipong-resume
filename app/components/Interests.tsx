@@ -7,11 +7,11 @@ interface InterestsProps {
   data: {
     title: string;
     desc: string;
-    image: any;
+    image: string;
     bullets: {
       title: string;
       desc: string;
-      icon: React.ReactNode;
+      icon: React.ReactElement;
     }[];
   };
 }
@@ -61,7 +61,7 @@ export const Interests = (props: Readonly<InterestsProps>) => {
   );
 };
 
-function Interest(props: any) {
+function Interest(props: { title: string; icon: React.ReactElement; children: React.ReactNode }) {
   return (
     <div className="flex items-start mt-8 space-x-3">
       <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-indigo-500 rounded-md w-11 h-11 ">
