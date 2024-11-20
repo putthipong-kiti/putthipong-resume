@@ -127,7 +127,7 @@ export default function Home() {
                     className="flex items-center px-8 py-3 gap-4 text-lg text-center text-white bg-indigo-600 rounded-xl transition duration-300 hover:bg-indigo-700"
                   >
                     See the Live Site
-                    <ArrowUpRightIcon className="hidden lg:flex lg:w-5 lg:h-5" />
+                    <ArrowUpRightIcon className="hidden xl:flex xl:w-5 xl:h-5" />
                   </a>
 
                   <a
@@ -137,7 +137,7 @@ export default function Home() {
                     className="flex items-center px-8 py-3 gap-4 text-lg text-center text-gray-500 dark:text-gray-300 bg-gray-100 dark:bg-trueGray-800 rounded-xl transition duration-300 hover:bg-gray-200 dark:hover:bg-trueGray-900"
                   >
                     Read More
-                    <ArrowRightIcon className="hidden lg:flex lg:w-5 lg:h-5" />
+                    <ArrowRightIcon className="hidden xl:flex xl:w-5 xl:h-5" />
                   </a>
                 </div>
               </div>
@@ -179,7 +179,7 @@ export default function Home() {
                     className="flex items-center px-8 py-3 gap-4 text-lg text-center text-white bg-indigo-600 rounded-xl transition duration-300 hover:bg-indigo-700"
                   >
                     See the Live Site
-                    <ArrowUpRightIcon className="hidden lg:flex lg:w-5 lg:h-5" />
+                    <ArrowUpRightIcon className="hidden xl:flex xl:w-5 xl:h-5" />
                   </a>
                 </div>
               </div>
