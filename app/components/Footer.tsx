@@ -56,8 +56,7 @@ export function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()} Putthipong Kitisriworaphan. All
-          rights reserved.
+          Copyright © 2024 Putthipong Kitisriworaphan. All rights reserved.
         </div>
       </div>
     </div>
