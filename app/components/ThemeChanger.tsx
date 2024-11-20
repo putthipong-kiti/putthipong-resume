@@ -14,7 +14,7 @@ const ThemeChanger = () => {
     <div className="relative z-10 flex h-14 w-24 items-center rounded-full bg-gray-300 dark:bg-trueGray-800">
       <div
         className={`absolute h-12 w-11 rounded-full bg-white dark:bg-trueGray-600 shadow-md transform transition-transform duration-300 ${
-          theme === "dark" ? "translate-x-12" : "translate-x-1"
+          theme === "light" ? "translate-x-1" : "translate-x-12"
         }`}
       ></div>
 
