@@ -105,96 +105,98 @@ export default function Home() {
         <h2 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
           Explore My Portfolio
         </h2>
-        <div className="container w-3/4 p-8 mx-auto">
-          <div className="group flex flex-wrap bg-white dark:bg-trueGray-600 shadow-lg rounded-3xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-            <div className="flex items-center w-full lg:w-1/2 p-6">
-              <div className="max-w-2xl">
-                <h2 className="text-3xl text-left font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
-                  XZAM
-                </h2>
-                <div className="text-sm text-left mt-4 font-bold tracking-wider text-gray-500 dark:text-gray-300">
-                  FUNDAMENTALS OF COMPUTER PROGRAMMING PROJECT
-                </div>
-                <p className="py-4 text-sm text-left leading-normal text-gray-500 lg:text-base xl:text-lg dark:text-gray-300">
-                  Platform for high school students to access test compilations
-                  and answer keys for exam preparation.
-                </p>
-                <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-                  <a
-                    href="https://xzam-26219.web.app/"
-                    target="_blank"
-                    rel="noopener"
-                    className="flex items-center px-8 py-3 gap-4 text-lg text-center text-white bg-indigo-600 rounded-xl transition duration-300 hover:bg-indigo-700"
-                  >
-                    See the Live Site
-                    <ArrowUpRightIcon className="hidden xl:flex xl:w-5 xl:h-5" />
-                  </a>
+        <div className="grid gap-10 grid-cols-1 my-10">
+          <div className="container w-3/4 mx-auto">
+            <div className="group flex flex-wrap bg-white dark:bg-trueGray-600 shadow-lg rounded-3xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+              <div className="flex items-center w-full lg:w-1/2 p-6">
+                <div className="max-w-2xl">
+                  <h2 className="text-3xl text-left font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+                    XZAM
+                  </h2>
+                  <div className="text-sm text-left mt-4 font-bold tracking-wider text-gray-500 dark:text-gray-300">
+                    FUNDAMENTALS OF COMPUTER PROGRAMMING PROJECT
+                  </div>
+                  <p className="py-4 text-sm text-left leading-normal text-gray-500 lg:text-base xl:text-lg dark:text-gray-300">
+                    Platform for high school students to access test
+                    compilations and answer keys for exam preparation.
+                  </p>
+                  <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+                    <a
+                      href="https://xzam-26219.web.app/"
+                      target="_blank"
+                      rel="noopener"
+                      className="flex items-center px-8 py-3 gap-4 text-lg text-center text-white bg-indigo-600 rounded-xl transition duration-300 hover:bg-indigo-700"
+                    >
+                      See the Live Site
+                      <ArrowUpRightIcon className="hidden xl:flex xl:w-5 xl:h-5" />
+                    </a>
 
-                  <a
-                    href="https://www.dailynews.co.th/news/2974727/"
-                    target="_blank"
-                    rel="noopener"
-                    className="flex items-center px-8 py-3 gap-4 text-lg text-center text-gray-500 dark:text-gray-300 bg-gray-100 dark:bg-trueGray-800 rounded-xl transition duration-300 hover:bg-gray-200 dark:hover:bg-trueGray-900"
-                  >
-                    Read More
-                    <ArrowRightIcon className="hidden xl:flex xl:w-5 xl:h-5" />
-                  </a>
+                    <a
+                      href="https://www.dailynews.co.th/news/2974727/"
+                      target="_blank"
+                      rel="noopener"
+                      className="flex items-center px-8 py-3 gap-4 text-lg text-center text-gray-500 dark:text-gray-300 bg-gray-100 dark:bg-trueGray-800 rounded-xl transition duration-300 hover:bg-gray-200 dark:hover:bg-trueGray-900"
+                    >
+                      Read More
+                      <ArrowRightIcon className="hidden xl:flex xl:w-5 xl:h-5" />
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="flex items-center justify-center w-full lg:w-1/2 bg-gray-100 dark:bg-gray-700">
-              <div>
-                <Image
-                  src="/xzam.jpg"
-                  width="616"
-                  height="617"
-                  className="object-fill"
-                  alt="XZAM Project"
-                  loading="eager"
-                />
+              <div className="flex items-center justify-center w-full lg:w-1/2 bg-gray-100 dark:bg-gray-700">
+                <div>
+                  <Image
+                    src="/xzam.jpg"
+                    width="616"
+                    height="617"
+                    className="object-fill"
+                    alt="XZAM Project"
+                    loading="eager"
+                  />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="container w-3/4 p-8 mx-auto">
-          <div className="group flex flex-wrap bg-white dark:bg-trueGray-600 shadow-lg rounded-3xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-            <div className="flex items-center w-full lg:w-1/2 p-6">
-              <div className="max-w-2xl">
-                <h2 className="text-3xl text-left font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
-                  S-Track
-                </h2>
-                <div className="text-sm text-left mt-4 font-bold tracking-wider text-gray-500 dark:text-gray-300">
-                  WEB APPLICATION DEVELOPMENT PROJECT
-                </div>
-                <p className="py-4 text-sm text-left leading-normal text-gray-500 lg:text-base xl:text-lg dark:text-gray-300">
-                  Storage management system for university clubs to improve
-                  inventory tracking.
-                </p>
-                <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-                  <a
-                    href="https://s-track.vercel.app/"
-                    target="_blank"
-                    rel="noopener"
-                    className="flex items-center px-8 py-3 gap-4 text-lg text-center text-white bg-indigo-600 rounded-xl transition duration-300 hover:bg-indigo-700"
-                  >
-                    See the Live Site
-                    <ArrowUpRightIcon className="hidden xl:flex xl:w-5 xl:h-5" />
-                  </a>
+          <div className="container w-3/4 mx-auto">
+            <div className="group flex flex-wrap bg-white dark:bg-trueGray-600 shadow-lg rounded-3xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+              <div className="flex items-center w-full lg:w-1/2 p-6">
+                <div className="max-w-2xl">
+                  <h2 className="text-3xl text-left font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+                    S-Track
+                  </h2>
+                  <div className="text-sm text-left mt-4 font-bold tracking-wider text-gray-500 dark:text-gray-300">
+                    WEB APPLICATION DEVELOPMENT PROJECT
+                  </div>
+                  <p className="py-4 text-sm text-left leading-normal text-gray-500 lg:text-base xl:text-lg dark:text-gray-300">
+                    Storage management system for university clubs to improve
+                    inventory tracking.
+                  </p>
+                  <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+                    <a
+                      href="https://s-track.vercel.app/"
+                      target="_blank"
+                      rel="noopener"
+                      className="flex items-center px-8 py-3 gap-4 text-lg text-center text-white bg-indigo-600 rounded-xl transition duration-300 hover:bg-indigo-700"
+                    >
+                      See the Live Site
+                      <ArrowUpRightIcon className="hidden xl:flex xl:w-5 xl:h-5" />
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="flex items-center justify-center w-full lg:w-1/2 bg-gray-100 dark:bg-gray-700">
-              <div>
-                <Image
-                  src="/s-track.png"
-                  width="616"
-                  height="617"
-                  className="object-fill"
-                  alt="S-Track Project"
-                  loading="eager"
-                />
+              <div className="flex items-center justify-center w-full lg:w-1/2 bg-gray-100 dark:bg-gray-700">
+                <div>
+                  <Image
+                    src="/s-track.png"
+                    width="616"
+                    height="617"
+                    className="object-fill"
+                    alt="S-Track Project"
+                    loading="eager"
+                  />
+                </div>
               </div>
             </div>
           </div>
