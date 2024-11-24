@@ -7,6 +7,7 @@ import {
   BuildingStorefrontIcon,
   ArrowUpRightIcon,
   ArrowRightIcon,
+  SignalSlashIcon,
 } from "@heroicons/react/24/solid";
 
 const myInterestArea = {
@@ -46,13 +47,6 @@ export default function Home() {
               I&apos;m passionate about software development, problem-solving,{" "}
               <br />
               and creating tech solutions that make a difference. <br />
-              {/* Learn more{" "}
-              <a
-                href="/about"
-                className="text-blue-500 underline hover:text-blue-700"
-              >
-                about me.
-              </a> */}
             </div>
           </div>
         </div>
@@ -172,15 +166,24 @@ export default function Home() {
                     Storage management system for university clubs to improve
                     inventory tracking.
                   </p>
-                  <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+                  {/* <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
                     <a
                       href="https://s-track.vercel.app/"
                       target="_blank"
                       rel="noopener"
-                      className="flex items-center px-8 py-3 gap-4 text-lg text-center text-white bg-indigo-600 rounded-xl transition duration-300 hover:bg-indigo-700"
+                      className="flex items-center px-8 py-3 gap-4 text-lg text-center text-white bg-indigo-600 rounded-xl transition duration-300 hover:bg-indigo-700 "
                     >
                       See the Live Site
                       <ArrowUpRightIcon className="hidden xl:flex xl:w-5 xl:h-5" />
+                    </a>
+                  </div> */}
+                  <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+                    <a
+                      href="#"
+                      className="flex items-center px-8 py-3 gap-4 text-lg text-center text-white bg-gray-500 rounded-xl opacity-50 pointer-events-none"
+                    >
+                      Live Site Temporarily Unavailable
+                      <SignalSlashIcon className="hidden xl:flex xl:w-5 xl:h-5" />
                     </a>
                   </div>
                 </div>
